@@ -14,10 +14,10 @@ start.addEventListener("click",  event => {
     const firstInterval = setInterval(green,redInterval+greenInterval)
     clearInterval(firstInterval)
     setTimeout(() => {
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "#48CAE4";
     },greenInterval)
     setTimeout(() =>{
-        document.body.style.backgroundColor = "green";
+        document.body.style.backgroundColor = "#E574BC";
     },interval)
     setTimeout(() => {
     setInterval(red,interval)
@@ -37,11 +37,11 @@ stop.addEventListener("click", event => {
 
 function red(){
     console.log("red")
-    document.body.style.backgroundColor = "red";
+    document.body.style.backgroundColor = "#48CAE4";
 }
 function green(){
     console.log("green")
-    document.body.style.backgroundColor = "green";
+    document.body.style.backgroundColor = "#E574BC";
 }
     
 
