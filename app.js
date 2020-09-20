@@ -5,7 +5,7 @@ const rest = document.querySelector("#pause")
 
 start.addEventListener("click",  event => {
     console.log("lece")
-    document.body.style.backgroundColor = "green";
+    document.body.style.backgroundColor = "#E574BC";
     
     const redInterval = parseInt(rest.value) * 1000;
     const greenInterval = parseInt(work.value) * 1000;
