@@ -4,6 +4,6 @@ body{
 .col{
     height: 50px;
 }
-.row{
-    padding: 40px;
+.m6{
+    height: 100px !important;
 }
